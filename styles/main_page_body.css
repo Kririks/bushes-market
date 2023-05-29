@@ -6,3 +6,56 @@
     padding: 0px;
     overflow-x: hidden;
 }
+body
+{
+    background-image: url(/pictures/kysti_fon.png);
+}
+.mini-katalog
+{
+    display: flex;
+    flex-direction: column;
+    margin-top: 300px;
+    font-family: 'Noto Sans';
+}
+.kysti_dlya_ofisa
+{  
+    width: 16%;
+    padding: 10px;
+    font-size: 26px;
+    border: 2px solid white;
+    cursor: pointer;
+    background-color: rgb(53, 97, 53);
+    color: white;
+    transition: 0.3s;
+    border-radius: 10px;
+}
+.kysti_dlya_dachi
+{
+    width: 16%;
+    padding: 10px;
+    font-size: 26px;
+    border: 2px solid white;
+    cursor: pointer;
+    background-color: rgb(53, 97, 53);
+    color: white;
+    transition: 0.3s;
+    border-radius: 10px;
+}
+.kysti_dlya_doma
+{
+    width: 16%;
+    padding: 10px;
+    font-size: 26px;
+    border: 1px solid white;
+    cursor: pointer;
+    background-color: rgb(53, 97, 53);
+    color: white;
+    transition: 0.3s;
+    border-radius: 10px;
+}
+.kysti_dlya_ofisa:hover, .kysti_dlya_dachi:hover, .kysti_dlya_doma:hover
+{
+    color: black;
+    background-color: white;
+    border: 2px solid black;
+}
